@@ -20,3 +20,36 @@ function isUniform(arr){
   return true;
 }
 
+//sumArray() *****
+
+function sumArray(arr){
+  var total = 0;
+  arr.forEach(function(element){
+    total += element;
+  });
+  return total;
+}
+
+// ** max ****
+
+function max(arr){
+  var max = 0;
+  for(var i=1; i < arr.length; i++){
+    if(arr[i] > max){
+      max = arr[i];
+    }
+  }
+  return max;
+}
+
+//  arrasy vs  object 
+
+var dogs = ["rusty", "lucky"];
+ // object 
+
+ var dog = {
+   name: "bubba",
+   breed: "Lab"
+ }
+
+ 
